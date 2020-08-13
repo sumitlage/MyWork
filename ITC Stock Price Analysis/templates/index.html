@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+ITC Stock Price Analysis
+</title>
+</head>
+
+<body>
+<form action='/predict' method='post'>
+
+<h2>Traiding Date : </h2> <input id='Date' name='Date' type="datetime-local">
+
+<h2>Opening Price : </h2> <input id='Open' name='Open' type="float" required='required'>
+<h2>High : </h2> <input id='High' name='High' type="float" required='required'>
+<h2>Low : </h2> <input id='Low' name='Low' type="float" required='required'>
+<h2>Volume Traded : </h2> <input id='Volume' name='Volume' type="string">
+
+<br>
+<br>
+<input type='submit' Value='Predict'>
+</form>
+
+<h3>{{Prediction_Text}}</h3>
+</body>
+</html>

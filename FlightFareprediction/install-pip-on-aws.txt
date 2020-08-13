@@ -1,0 +1,5 @@
+# install pip on AWS
+sudo apt-get update && sudo apt-get install python-pip
+
+# install pip3 on AWS
+sudo apt-get update && sudo apt-get install python3-pip
